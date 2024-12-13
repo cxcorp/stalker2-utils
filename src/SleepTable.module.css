@@ -1,0 +1,19 @@
+.hour {
+  font-weight: 500;
+}
+
+.result-hour__bad {
+  color: red;
+}
+
+.result-hour__ok {
+  color: orange;
+}
+
+.result-hour__best {
+  color: greenyellow;
+}
+
+.row:nth-of-type(2n) > td {
+  background: rgba(120, 120, 120, 0.2);
+}
