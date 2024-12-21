@@ -14,6 +14,15 @@
   color: greenyellow;
 }
 
-.row:nth-of-type(2n) > td {
+.row {
+  text-align: left;
+}
+
+.row > td {
+  padding-left: 8px;
+}
+
+.row:nth-of-type(2n) > td,
+.row > th {
   background: rgba(120, 120, 120, 0.2);
 }
